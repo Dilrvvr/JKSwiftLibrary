@@ -55,16 +55,28 @@ public extension JKExtensionWrapper where Base == Date {
 
 public extension JKExtensionWrapper where Base == Date {
     
-    /// "yyyy-MM-dd" date无需增加时区偏移 date/format为空时或出错时返回空字符串
-    var format_yyyyMMdd_horizontal_line: String {
+    /// "HHmmss" date无需增加时区偏移 date/format为空时或出错时返回空字符串
+    var format_HHmmss: String {
         
-        return toString(format: "%Y-%m-%d")
+        return toString(format: "%H%M%S")
+    }
+    
+    /// "HH:mm:ss" date无需增加时区偏移 date/format为空时或出错时返回空字符串
+    var format_HHmmss_colon: String {
+        
+        return toString(format: "%H:%M:%S")
     }
     
     /// "yyyyMMdd" date无需增加时区偏移 date/format为空时或出错时返回空字符串
     var format_yyyyMMdd: String {
         
         return toString(format: "%Y%m%d")
+    }
+    
+    /// "yyyy-MM-dd" date无需增加时区偏移 date/format为空时或出错时返回空字符串
+    var format_yyyyMMdd_horizontal_line: String {
+        
+        return toString(format: "%Y-%m-%d")
     }
     
     /// "yyyyMMddHHmmss" date无需增加时区偏移 date/format为空时或出错时返回空字符串

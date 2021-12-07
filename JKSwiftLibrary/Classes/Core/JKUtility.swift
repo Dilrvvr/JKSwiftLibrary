@@ -269,16 +269,28 @@ public func JKAbsolutePrintTime(_ absoluteTime: CFAbsoluteTime) -> String {
     return dateString
 }
 
-/// "yyyy-MM-dd" date无需增加时区偏移 date/format为空时或出错时返回空字符串
-public func JKStringFromDate_yyyyMMdd_horizontal_line(date: Date?) -> String {
+/// "HHmmss" date无需增加时区偏移 date/format为空时或出错时返回空字符串
+public func JKStringFromDate_HHmmss(date: Date?) -> String {
     
-    return JKStringFromDate(date: date, format: "%Y-%m-%d")
+    return JKStringFromDate(date: date, format: "%H%M%S")
+}
+
+/// "HH:mm:ss" date无需增加时区偏移 date/format为空时或出错时返回空字符串
+public func JKStringFromDate_HHmmss_colon(date: Date?) -> String {
+    
+    return JKStringFromDate(date: date, format: "%H:%M:%S")
 }
 
 /// "yyyyMMdd" date无需增加时区偏移 date/format为空时或出错时返回空字符串
 public func JKStringFromDate_yyyyMMdd(date: Date?) -> String {
     
     return JKStringFromDate(date: date, format: "%Y%m%d")
+}
+
+/// "yyyy-MM-dd" date无需增加时区偏移 date/format为空时或出错时返回空字符串
+public func JKStringFromDate_yyyyMMdd_horizontal_line(date: Date?) -> String {
+    
+    return JKStringFromDate(date: date, format: "%Y-%m-%d")
 }
 
 /// "yyyyMMdd HH:mm:ss" date无需增加时区偏移 date/format为空时或出错时返回空字符串
