@@ -1,9 +1,10 @@
 # JKSwiftLibrary
+==============
 
-[![CI Status](https://img.shields.io/travis/albert/JKSwiftLibrary.svg?style=flat)](https://travis-ci.org/albert/JKSwiftLibrary)
-[![Version](https://img.shields.io/cocoapods/v/JKSwiftLibrary.svg?style=flat)](https://cocoapods.org/pods/JKSwiftLibrary)
-[![License](https://img.shields.io/cocoapods/l/JKSwiftLibrary.svg?style=flat)](https://cocoapods.org/pods/JKSwiftLibrary)
-[![Platform](https://img.shields.io/cocoapods/p/JKSwiftLibrary.svg?style=flat)](https://cocoapods.org/pods/JKSwiftLibrary)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Dilrvvr/JKSwiftLibrary/master/LICENSE) &nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/v/JKSwiftLibrary.svg?style=flat)](https://cocoapods.org/pods/JKSwiftLibrary) &nbsp;
+[![CocoaPods](http://img.shields.io/cocoapods/p/JKSwiftLibrary.svg?style=flat)](https://cocoapods.org/pods/JKSwiftLibrary) &nbsp;
+[![Support](https://img.shields.io/badge/support-iOS10+-blue.svg?style=flat)](https://www.apple.com/nl/ios/) &nbsp;
 
 ## Example
 
