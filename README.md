@@ -22,7 +22,7 @@ pod 'JKSwiftLibrary'
 
 ## Author
 
-albert, jkdev123cool@gmail.com
+Dilrvvr, jkdev123cool@gmail.com
 
 ## License
 
