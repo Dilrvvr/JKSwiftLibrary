@@ -1,0 +1,6 @@
+framework module JKSwiftLibrary {
+  umbrella header "JKSwiftLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

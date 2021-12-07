@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JKSwiftLibrary_Example' do
+  pod 'JKSwiftLibrary', :path => '../'
+  pod 'JKSwiftLibrary/BaseClass', :path => '../'
+  pod 'JKSwiftLibrary/Extension', :path => '../'
+
+  target 'JKSwiftLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
