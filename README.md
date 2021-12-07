@@ -1,5 +1,4 @@
 # JKSwiftLibrary
-==============
 
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/Dilrvvr/JKSwiftLibrary/master/LICENSE) &nbsp;
 [![CocoaPods](http://img.shields.io/cocoapods/v/JKSwiftLibrary.svg?style=flat)](https://cocoapods.org/pods/JKSwiftLibrary) &nbsp;
