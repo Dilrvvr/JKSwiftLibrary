@@ -28,6 +28,26 @@ public var JKisLandscape: Bool { JKScreenWidth > JKScreenHeight }
 /// 是否竖屏
 public var JKisPortrait: Bool { JKScreenHeight >= JKScreenWidth }
 
+@available(iOS 13.0, *)
+public var JKCurrentWindowScene: UIWindowScene? {
+    
+    for scene in UIApplication.shared.connectedScenes {
+        
+        guard scene is UIWindowScene else { continue }
+        
+        let windowScene = scene as! UIWindowScene
+        
+        guard windowScene.activationState == .foregroundActive else {
+            
+            continue
+        }
+        
+        return windowScene
+    }
+    
+    return nil
+}
+
 /// keyWindow
 public var JKKeyWindow: UIWindow {
     
@@ -51,21 +71,14 @@ public var JKKeyWindow: UIWindow {
     
     if #available(iOS 13.0, *) {
         
-        for item in UIApplication.shared.connectedScenes {
-            
-            guard item is UIWindowScene else { continue }
-            
-            let windowScene = item as! UIWindowScene
-            
-            guard windowScene.activationState == .foregroundActive else {
-                
-                continue
-            }
+        if let windowScene = JKCurrentWindowScene {
             
             for window in windowScene.windows {
                 
-                if window.isHidden ||
-                    !window.bounds.equalTo(UIScreen.main.bounds) {
+                if window.isHidden { continue }
+                
+                // TODO: - JKTODO 分屏
+                if !window.bounds.equalTo(UIScreen.main.bounds) {
                     
                     continue
                 }
@@ -142,7 +155,7 @@ public var JKTabBarHeight: CGFloat {
 }
 
 /// 分隔线粗细
-public let JKLineThickness: CGFloat = 1.0 / UIScreen.main.scale
+public let JKLineThickness: CGFloat = (1.0 / UIScreen.main.scale)
 
 /// 分隔线颜色 浅色模式
 public let JKLineLightColor: UIColor = UIColor(red: 60.0 / 255.0, green: 60.0 / 255.0, blue: 67.0 / 255.0, alpha: 0.29)
@@ -358,13 +371,14 @@ public func JKSystemBlueColor() -> UIColor {
 /// 根据颜色创建图片
 public func JKCreateImage(color: UIColor?,
                           size: CGSize,
-                          opaque: Bool = false) -> UIImage? {
+                          opaque: Bool = false,
+                          scale: CGFloat = 0.0) -> UIImage? {
     
     guard let realColor = color else { return nil }
     
     let rect = CGRect(x: 0.0, y: 0.0, width: size.width, height: size.height)
     
-    UIGraphicsBeginImageContextWithOptions(size, opaque, 0.0)
+    UIGraphicsBeginImageContextWithOptions(size, opaque, scale)
     
     guard let context = UIGraphicsGetCurrentContext() else { return nil }
     

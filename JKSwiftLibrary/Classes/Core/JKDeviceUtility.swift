@@ -42,9 +42,12 @@ private struct JKDeviceType12Max: JKDeviceTypeProtocol {
     var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKScreenBounds.size) }
 }
 
-// 如有新增设备在此添加，并在`JKisDeviceX`中补充
+// MARK: - JKMARK 如有新增设备在此添加，并在`JKisDeviceX`中补充 & 更新JKiPhoneScreenMaxWidth
 
 
+
+/// 目前iPhone屏幕最大宽度
+public let JKiPhoneScreenMaxWidth: CGFloat = 428.0
 
 /// 是否iPhone设备
 public let JKisDeviceiPhone: Bool = (UIDevice.current.userInterfaceIdiom == .phone)
