@@ -31,6 +31,23 @@ public var JKisPortrait: Bool { JKScreenHeight >= JKScreenWidth }
 @available(iOS 13.0, *)
 public var JKCurrentWindowScene: UIWindowScene? {
     
+    let connectedScenes = UIApplication.shared.connectedScenes
+    
+    if connectedScenes.count < 1 {
+        
+        return nil
+    }
+    
+    if connectedScenes.count == 1 {
+        
+        if let windowScene = connectedScenes.first as? UIWindowScene {
+            
+            return windowScene
+        }
+        
+        return nil
+    }
+    
     for scene in UIApplication.shared.connectedScenes {
         
         guard scene is UIWindowScene else { continue }
@@ -48,6 +65,53 @@ public var JKCurrentWindowScene: UIWindowScene? {
     return nil
 }
 
+public var JKCurrentSceneWindow: UIWindow? {
+    
+    if #available(iOS 13.0, *) {
+        
+        guard let windowScene = JKCurrentWindowScene else {
+            
+            return nil
+        }
+        
+        if #available(iOS 15.0, *) {
+            
+            if let keyWindow = windowScene.keyWindow {
+                
+                return keyWindow
+            }
+        }
+        
+        guard windowScene.windows.count > 0 else {
+            
+            return nil
+        }
+        
+        if windowScene.windows.count == 1 {
+            
+            return windowScene.windows.first!
+        }
+        
+        for window in windowScene.windows {
+            
+            if window.isHidden { continue }
+            
+            if window.isKeyWindow {
+                
+                return window
+            }
+            
+            // TODO: - JKTODO 分屏
+            if (window.bounds.height == JKScreenHeight) {
+                
+                return window
+            }
+        }
+    }
+    
+    return nil
+}
+
 /// keyWindow
 public var JKKeyWindow: UIWindow {
     
@@ -58,34 +122,24 @@ public var JKKeyWindow: UIWindow {
         return keyWindow
     }
     
-    guard let appDelegate = UIApplication.shared.delegate else { return JKPrivateReplaceWindow_ }
+    guard let appDelegate = UIApplication.shared.delegate else {
+        
+        return JKPrivateReplaceWindow_
+    }
     
     let isResponds = appDelegate.responds(to: #selector(getter: UIApplicationDelegate.window))
     
     if isResponds {
         
-        guard let window = appDelegate.window as? UIWindow else { return JKPrivateReplaceWindow_ }
-        
-        return window
+        if let window = appDelegate.window as? UIWindow {
+            
+            return window
+        }
     }
     
-    if #available(iOS 13.0, *) {
+    if let keyWindow = JKCurrentSceneWindow {
         
-        if let windowScene = JKCurrentWindowScene {
-            
-            for window in windowScene.windows {
-                
-                if window.isHidden { continue }
-                
-                // TODO: - JKTODO 分屏
-                if !window.bounds.equalTo(UIScreen.main.bounds) {
-                    
-                    continue
-                }
-                
-                return window
-            }
-        }
+        return keyWindow
     }
     
     return JKPrivateReplaceWindow_
