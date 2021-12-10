@@ -28,6 +28,7 @@ public var JKisLandscape: Bool { JKScreenWidth > JKScreenHeight }
 /// 是否竖屏
 public var JKisPortrait: Bool { JKScreenHeight >= JKScreenWidth }
 
+/// 当前的windowScene
 @available(iOS 13.0, *)
 public var JKCurrentWindowScene: UIWindowScene? {
     
@@ -65,6 +66,7 @@ public var JKCurrentWindowScene: UIWindowScene? {
     return nil
 }
 
+/// 当前windowScene的window
 public var JKCurrentSceneWindow: UIWindow? {
     
     if #available(iOS 13.0, *) {
@@ -112,7 +114,7 @@ public var JKCurrentSceneWindow: UIWindow? {
     return nil
 }
 
-/// keyWindow
+/// 当前的主window
 public var JKKeyWindow: UIWindow {
     
     //UIApplication.shared.delegate!.window!!
@@ -143,6 +145,33 @@ public var JKKeyWindow: UIWindow {
     }
     
     return JKPrivateReplaceWindow_
+}
+
+/// 创建新的window后注册到当前的windowScene   isObserve: 是否监听通知
+public func JKRegisterWindowToCurrentWindowScene(_ window: UIWindow?, isObserve: Bool) {
+    
+    guard let realWindow = window else { return }
+    
+    // 注册window
+    if #available(iOS 13.0, *) {
+        
+        guard let windowScene = JKCurrentWindowScene else { return }
+        
+        realWindow.windowScene = windowScene
+        
+        guard isObserve else { return }
+        
+        NotificationCenter.default.addObserver(forName: UIScene.willConnectNotification, object: nil, queue: nil) { [weak realWindow] note in
+            
+            guard let _ = realWindow,
+                  let noteWindowScene = note.object as? UIWindowScene else {
+                      
+                      return
+                  }
+            
+            realWindow?.windowScene = noteWindowScene
+        }
+    }
 }
 
 /// 安全区域 insets
