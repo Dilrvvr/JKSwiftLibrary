@@ -1,5 +1,5 @@
 //
-//  JKDeviceType.swift
+//  JKDeviceUtility.swift
 //  JKSwiftLibrary
 //
 //  Created by albert on 2021/12/7.
@@ -43,6 +43,7 @@ private struct JKDeviceType12Max: JKDeviceTypeProtocol {
 }
 
 // MARK: - JKMARK 如有新增设备在此添加，并在`JKisDeviceX`中补充 & 更新JKiPhoneScreenMaxWidth
+// 如iPhone未来支持分屏时需要修改JKisSplitScreenCapable
 
 
 
@@ -54,6 +55,9 @@ public let JKisDeviceiPhone: Bool = (UIDevice.current.userInterfaceIdiom == .pho
 
 /// 是否iPad设备
 public let JKisDeviceiPad: Bool = (UIDevice.current.userInterfaceIdiom == .pad)
+
+/// 是否可以分屏
+public var JKisSplitScreenCapable: Bool { JKisDeviceiPad }
 
 /// 是否iPhone X设备
 public let JKisDeviceX: Bool = {

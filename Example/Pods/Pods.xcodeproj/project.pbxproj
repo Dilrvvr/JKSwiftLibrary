@@ -14,6 +14,7 @@
 		287EFD4532F0C91C3AC9B676F748200F /* JKSwiftLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D735A5EBA01D5E12F1068FAF0B6CA /* JKSwiftLibrary-dummy.m */; };
 		43E447EA4FF8B3A72CFC1B4DCA5B3C16 /* JKDeviceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FE1E966579ADC0B18EF531E0EB47F /* JKDeviceUtility.swift */; };
 		44877938CB16FDDA56E16A66D2928FA2 /* UIDevice+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F5DE303F6995A452CE8FD28E2453F /* UIDevice+JKExtension.swift */; };
+		5068353E2766EE18009D14AB /* JKAPPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068353D2766EE18009D14AB /* JKAPPUtility.swift */; };
 		63F18F638F245039FA5D4E0FA6ED21CF /* Pods-JKSwiftLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9033C2B7F487AD5E00912626BAF38C /* Pods-JKSwiftLibrary_Tests-dummy.m */; };
 		6FBF7C25D86028F035EAFB4C08625BB1 /* UIView+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2012C98DD0A00B9A8BC5138E82933E /* UIView+JKExtension.swift */; };
 		71187209928E5F8AAAF8CC49A7B82C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -52,7 +53,7 @@
 		0B2B37B4E2C0CB913E188CA2F9B50FDC /* Pods-JKSwiftLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		0C0403E18E2899015BEB84371663379B /* Pods-JKSwiftLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F02678DC937152217E8572CB3D09604 /* Pods-JKSwiftLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		12CB43222693BAE5759F0AD139AB3220 /* JKSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKSwiftLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		12CB43222693BAE5759F0AD139AB3220 /* JKSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKSwiftLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		14260EA35894D7BDE6588627B8433FAF /* JKUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKUIView.swift; path = JKSwiftLibrary/Classes/BaseClass/JKUIView.swift; sourceTree = "<group>"; };
 		160E10703E0DC47F8AD2FF34C2575C3D /* JKJSONUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKJSONUtility.swift; path = JKSwiftLibrary/Classes/Core/JKJSONUtility.swift; sourceTree = "<group>"; };
 		1B6A0989D2F98BB395A4C427E0311CCF /* JKGeneralUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKGeneralUtility.swift; path = JKSwiftLibrary/Classes/Core/JKGeneralUtility.swift; sourceTree = "<group>"; };
@@ -60,10 +61,11 @@
 		2237BB226F7E8E64E794E9A84F6A22CA /* JKSwiftLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftLibrary.release.xcconfig; sourceTree = "<group>"; };
 		29C2FB7F8A8F5665453459D070328BAE /* JKSwiftLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKSwiftLibrary; path = JKSwiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5D3C1C68B41A91448AF651D8BC4BE9 /* JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKExtension.swift; path = JKSwiftLibrary/Classes/Extension/JKExtension.swift; sourceTree = "<group>"; };
-		3132F77964F5BD7B346E89C00C989EC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3132F77964F5BD7B346E89C00C989EC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		35830E4837E7A04171999A0AA902A5D1 /* JKUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKUtility.swift; path = JKSwiftLibrary/Classes/Core/JKUtility.swift; sourceTree = "<group>"; };
 		4252F4FC4CD9B4B140862A898CC9B3A0 /* Pods-JKSwiftLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		4DCB11970C529DD7B30CF4C74C8E6BE5 /* JKSwiftLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftLibrary-prefix.pch"; sourceTree = "<group>"; };
+		5068353D2766EE18009D14AB /* JKAPPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JKAPPUtility.swift; path = JKSwiftLibrary/Classes/Core/JKAPPUtility.swift; sourceTree = "<group>"; };
 		5090CB29B17A408AD9B2AB8CCBA9EC26 /* Pods-JKSwiftLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		664769960B7FE606822300D87AA105FC /* JKSwiftLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSwiftLibrary-Info.plist"; sourceTree = "<group>"; };
 		697D735A5EBA01D5E12F1068FAF0B6CA /* JKSwiftLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftLibrary-dummy.m"; sourceTree = "<group>"; };
@@ -74,9 +76,9 @@
 		882686F9037888740E3E1161AB8D9173 /* JKSwiftLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftLibrary.modulemap; sourceTree = "<group>"; };
 		89944B2DE52BA8C18F00E5FD8CBCFA78 /* Pods-JKSwiftLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D5885CF5A1047E20D3647D0E9BA29BC /* Date+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/Date+JKExtension.swift"; sourceTree = "<group>"; };
-		96ED0F9D4380B9F8DA56BCE7412E1F0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		96ED0F9D4380B9F8DA56BCE7412E1F0C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9B6FE1E966579ADC0B18EF531E0EB47F /* JKDeviceUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKDeviceUtility.swift; path = JKSwiftLibrary/Classes/Core/JKDeviceUtility.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A302D088BE07FC3D1D3AF0684126738A /* Pods-JKSwiftLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA493CA6E8D015DEE72879016E717C31 /* Pods-JKSwiftLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		AFC1AB5481FC18AC27868B310B57132C /* Pods-JKSwiftLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		A00EEB2B4418E823C76D58D18FF5806D /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				5068353D2766EE18009D14AB /* JKAPPUtility.swift */,
 				9B6FE1E966579ADC0B18EF531E0EB47F /* JKDeviceUtility.swift */,
 				1B6A0989D2F98BB395A4C427E0311CCF /* JKGeneralUtility.swift */,
 				160E10703E0DC47F8AD2FF34C2575C3D /* JKJSONUtility.swift */,
@@ -429,6 +432,7 @@
 				B3F0299E8869E45AC69BFDF4DEBDBACD /* Date+JKExtension.swift in Sources */,
 				43E447EA4FF8B3A72CFC1B4DCA5B3C16 /* JKDeviceUtility.swift in Sources */,
 				0464D53F96B344869CB11AD01E628C13 /* JKExtension.swift in Sources */,
+				5068353E2766EE18009D14AB /* JKAPPUtility.swift in Sources */,
 				9B03DAC39C142544ED93A5155A581761 /* JKGeneralUtility.swift in Sources */,
 				B3D57428725700658CA1B2F47F8A157E /* JKJSONUtility.swift in Sources */,
 				8566888492E129BDD82517ECDA74EB85 /* JKProtocol.swift in Sources */,
@@ -659,8 +663,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
