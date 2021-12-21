@@ -37,7 +37,7 @@ public struct JKAPPUtility {
             
             return version
         }
-        UIDevice.current.beginGeneratingDeviceOrientationNotifications()
+        
         return nil
     }
     
@@ -56,7 +56,13 @@ public struct JKAPPUtility {
     // MARK: - Method
     
     /// 跳转当前app设置
-    public static func jumpAppSetting() {
+    public static func openAppSetting() {
+        
+        jumpToAppSetting()
+    }
+    
+    /// 跳转当前app设置
+    public static func jumpToAppSetting() {
         
         openUrlWithString(urlString: UIApplication.openSettingsURLString)
     }
