@@ -629,12 +629,12 @@ public extension JKAuthorization {
         showTipAlert(viewController: vc, tip: tip)
     }
     
-    /// 权限提示弹窗 UIView
-    @objc final class func showTipAlert(superView: UIView?, type: JKAuthorizationType) {
+    /// 自定义权限提示弹窗 UIView
+    @objc final class func showCustomTipAlert(superView: UIView?, type: JKAuthorizationType) {
         
         guard let tip = tipWithAuthorizationType(type) else { return }
         
-        showTipAlert(superView: superView, tip: tip)
+        showCustomTipAlert(superView: superView, tip: tip)
     }
     
     /// 权限提示弹窗 UIAlertController
@@ -659,8 +659,8 @@ public extension JKAuthorization {
         vc.present(alert, animated: true, completion: nil)
     }
     
-    /// 权限提示弹窗 UIView 需使用makeCustomTipAlert自定义
-    static func showTipAlert(superView: UIView?, tip: JKAuthorizationTipProtocol) {
+    /// 自定义权限提示弹窗 UIView 需使用makeCustomTipAlert自定义
+    static func showCustomTipAlert(superView: UIView?, tip: JKAuthorizationTipProtocol) {
         
         if let handler = customTipAlertHandler {
             
