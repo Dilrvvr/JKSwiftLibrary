@@ -34,6 +34,9 @@ public protocol JKAuthorizationTipProtocol {
     /// 相册权限
     case photoLibrary = 1
     
+    /// 相册权限 有限访问
+    case photoLibraryLimited = 101
+    
     /// 相机权限
     case camera = 2
     
@@ -160,11 +163,19 @@ public class JKAuthorization: NSObject {
     }
     
     /// 请求相册权限
-    private static func requestPhotoLibraryAuthorization(_ completionHandler: @escaping (_ status: JKAuthorizationStatus) -> Void) {
+    private static func requestPhotoLibraryAuthorization(isAddOnly: Bool = false,
+                                                         _ completionHandler: @escaping (_ status: JKAuthorizationStatus) -> Void) {
         
         if #available(iOS 14, *) {
             
-            PHPhotoLibrary.requestAuthorization(for: .readWrite) { authorizationStatus in
+            var accessLevel = PHAccessLevel.readWrite
+            
+            if isAddOnly {
+                
+                accessLevel = .addOnly
+            }
+            
+            PHPhotoLibrary.requestAuthorization(for: accessLevel) { authorizationStatus in
                 
                 var status: JKAuthorizationStatus = .denied
                 
@@ -682,35 +693,39 @@ public extension JKAuthorization {
             
         case .photoLibrary:
             
-            tip = PhotoLibraryTip()
+            tip = Tip.photoLibrary
+            
+        case .photoLibraryLimited:
+            
+            tip = Tip.photoLibraryLimited
             
         case .camera:
             
-            tip = CameraTip()
+            tip = Tip.camera
             
         case .microphone:
             
-            tip = MicrophoneTip()
+            tip = Tip.microphone
             
         case .mediaLibrary:
             
-            tip = MediaLibraryTip()
+            tip = Tip.mediaLibrary
             
         case .tracking:
             
-            tip = TrackingTip()
+            tip = Tip.tracking
             
         case .location:
             
-            tip = LocationTip()
+            tip = Tip.location
             
         case .notification:
             
-            tip = NotificationTip()
+            tip = Tip.notification
             
         case .network:
             
-            tip = NetworkTip()
+            tip = Tip.networkTip
             
         default:
             break
@@ -722,6 +737,42 @@ public extension JKAuthorization {
 
 // MARK:
 // MARK: - 权限提示协议实例
+
+public extension JKAuthorization {
+    
+    struct Tip {
+        
+        /// 相册 权限提示
+        public static let photoLibrary = PhotoLibraryTip()
+        
+        /// 相册 有限访问 权限提示
+        public static let photoLibraryLimited = PhotoLibraryLimitedTip()
+        
+        /// 相机 权限提示
+        public static let camera = CameraTip()
+        
+        /// 麦克风 权限提示
+        public static let microphone = MicrophoneTip()
+        
+        /// 媒体资料库 权限提示
+        public static let mediaLibrary = MediaLibraryTip()
+        
+        /// 追踪权限 iOS14 权限提示
+        public static let tracking = TrackingTip()
+        
+        /// 定位 权限提示
+        public static let location = LocationTip()
+        
+        /// 推送 权限提示
+        public static let notification = NotificationTip()
+        
+        /// 联网 - 蜂窝网络 权限提示
+        public static let networkTip = NetworkTip()
+    }
+}
+
+// MARK:
+// MARK: - JKAuthorizationTipProtocol
 
 public extension JKAuthorization {
     
