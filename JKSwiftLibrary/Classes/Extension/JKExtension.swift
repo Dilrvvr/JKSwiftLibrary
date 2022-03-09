@@ -44,10 +44,10 @@ extension UIDevice: JKExtensionCompatible {}
 
 extension UIView: JKExtensionCompatible {}
 
-//extension UIColor: JKExtensionCompatible {}
+extension UIColor: JKExtensionCompatible {}
 
-//extension UIImage: JKExtensionCompatible {}
+extension UIImage: JKExtensionCompatible {}
 
-//extension String: JKExtensionCompatible {}
+extension String: JKExtensionCompatible {}
 
-//extension UIGestureRecognizer: JKExtensionCompatible {}
+extension UIGestureRecognizer: JKExtensionCompatible {}
