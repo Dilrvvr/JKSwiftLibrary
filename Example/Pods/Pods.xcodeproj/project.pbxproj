@@ -16,6 +16,7 @@
 		44877938CB16FDDA56E16A66D2928FA2 /* UIDevice+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080F5DE303F6995A452CE8FD28E2453F /* UIDevice+JKExtension.swift */; };
 		502ACFC92771C9F200080932 /* JKAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502ACFC82771C9F200080932 /* JKAuthorization.swift */; };
 		5068353E2766EE18009D14AB /* JKAPPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068353D2766EE18009D14AB /* JKAPPUtility.swift */; };
+		509A977B27D8A062002290FE /* UIImage+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A977A27D8A062002290FE /* UIImage+JKExtension.swift */; };
 		63F18F638F245039FA5D4E0FA6ED21CF /* Pods-JKSwiftLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9033C2B7F487AD5E00912626BAF38C /* Pods-JKSwiftLibrary_Tests-dummy.m */; };
 		6FBF7C25D86028F035EAFB4C08625BB1 /* UIView+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2012C98DD0A00B9A8BC5138E82933E /* UIView+JKExtension.swift */; };
 		71187209928E5F8AAAF8CC49A7B82C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
@@ -69,6 +70,7 @@
 		502ACFC82771C9F200080932 /* JKAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JKAuthorization.swift; path = JKSwiftLibrary/Classes/Core/JKAuthorization.swift; sourceTree = "<group>"; };
 		5068353D2766EE18009D14AB /* JKAPPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JKAPPUtility.swift; path = JKSwiftLibrary/Classes/Core/JKAPPUtility.swift; sourceTree = "<group>"; };
 		5090CB29B17A408AD9B2AB8CCBA9EC26 /* Pods-JKSwiftLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		509A977A27D8A062002290FE /* UIImage+JKExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIImage+JKExtension.swift"; sourceTree = "<group>"; };
 		664769960B7FE606822300D87AA105FC /* JKSwiftLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSwiftLibrary-Info.plist"; sourceTree = "<group>"; };
 		697D735A5EBA01D5E12F1068FAF0B6CA /* JKSwiftLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftLibrary-dummy.m"; sourceTree = "<group>"; };
 		722C58C0B656E4EDBD7DF504E7FD1FCB /* Pods-JKSwiftLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				2E5D3C1C68B41A91448AF651D8BC4BE9 /* JKExtension.swift */,
 				080F5DE303F6995A452CE8FD28E2453F /* UIDevice+JKExtension.swift */,
 				DF2012C98DD0A00B9A8BC5138E82933E /* UIView+JKExtension.swift */,
+				509A977A27D8A062002290FE /* UIImage+JKExtension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				43E447EA4FF8B3A72CFC1B4DCA5B3C16 /* JKDeviceUtility.swift in Sources */,
 				0464D53F96B344869CB11AD01E628C13 /* JKExtension.swift in Sources */,
 				5068353E2766EE18009D14AB /* JKAPPUtility.swift in Sources */,
+				509A977B27D8A062002290FE /* UIImage+JKExtension.swift in Sources */,
 				9B03DAC39C142544ED93A5155A581761 /* JKGeneralUtility.swift in Sources */,
 				B3D57428725700658CA1B2F47F8A157E /* JKJSONUtility.swift in Sources */,
 				8566888492E129BDD82517ECDA74EB85 /* JKProtocol.swift in Sources */,
