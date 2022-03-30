@@ -200,6 +200,8 @@ public struct JKDeviceUtility {
             "iPhone14,2" : "iPhone 13 Pro",
             "iPhone14,3" : "iPhone 13 Pro Max",
             
+            "iPhone14,6" : "iPhone SE (3rd generation)",
+            
             
             // iPod touch
             
@@ -266,6 +268,9 @@ public struct JKDeviceUtility {
             
             "iPad13,1" : "iPad Air (4th generation)",
             "iPad13,2" : "iPad Air (4th generation)",
+            
+            "iPad13,16" : "iPad Air (5th generation)",
+            "iPad13,17" : "iPad Air (5th generation)",
             
             
             // iPad Pro
