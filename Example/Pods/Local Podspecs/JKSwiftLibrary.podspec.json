@@ -2,16 +2,16 @@
   "name": "JKSwiftLibrary",
   "version": "1.0.0",
   "summary": "工具库.",
-  "homepage": "https://github.com/albert/JKSwiftLibrary",
+  "homepage": "https://github.com/Dilrvvr/JKSwiftLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "albert": "jkdev123cool@gmail.com"
+    "Dilrvvr": "jkdev123cool@gmail.com"
   },
   "source": {
-    "git": "https://github.com/albert/JKSwiftLibrary.git",
+    "git": "https://github.com/Dilrvvr/JKSwiftLibrary.git",
     "tag": "1.0.0"
   },
   "platforms": {
@@ -19,7 +19,8 @@
   },
   "resources": "JKSwiftLibrary/Assets/JKSwiftLibraryResource.bundle",
   "default_subspecs": [
-    "Core"
+    "Core",
+    "Extension"
   ],
   "swift_versions": "5.0",
   "subspecs": [
