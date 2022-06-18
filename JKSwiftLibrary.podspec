@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   
   s.resource = 'JKSwiftLibrary/Assets/JKSwiftLibraryResource.bundle'
   
-  s.default_subspec = ['Core']
+  s.default_subspec = ['Core', "Extension"]
   
   s.subspec 'Core' do |ss|
       ss.source_files = 'JKSwiftLibrary/Classes/Core/**/*'
