@@ -1,11 +1,11 @@
 PODS:
-  - JKSwiftLibrary (1.0.0):
-    - JKSwiftLibrary/Core (= 1.0.0)
-    - JKSwiftLibrary/Extension (= 1.0.0)
-  - JKSwiftLibrary/BaseClass (1.0.0):
+  - JKSwiftLibrary (1.0.1):
+    - JKSwiftLibrary/Core (= 1.0.1)
+    - JKSwiftLibrary/Extension (= 1.0.1)
+  - JKSwiftLibrary/BaseClass (1.0.1):
     - JKSwiftLibrary/Core
-  - JKSwiftLibrary/Core (1.0.0)
-  - JKSwiftLibrary/Extension (1.0.0):
+  - JKSwiftLibrary/Core (1.0.1)
+  - JKSwiftLibrary/Extension (1.0.1):
     - JKSwiftLibrary/Core
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKSwiftLibrary: 6465912ee5bc0465ab3c80d8f9f4b626897d1513
+  JKSwiftLibrary: c8293ef181fd8c78d7705025d73a41c7d31a0a27
 
 PODFILE CHECKSUM: 3dd766845cf562f49acab0629d3631c8a5a4011f
 
