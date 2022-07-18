@@ -50,13 +50,6 @@ open class JKUIView: UIView {
         initialization()
     }
     
-    open override func layoutSubviews() {
-        super.layoutSubviews()
-        
-        backgroundView.frame = bounds
-        contentView.frame = bounds
-    }
-    
     // MARK:
     // MARK: - Private Methods
     
@@ -87,8 +80,6 @@ open class JKUIView: UIView {
     /// 创建UI 交给子类重写 super自动调用该方法 注意调用super
     open func createUI() {
         
-        insertSubview(backgroundView, at: 0)
-        insertSubview(contentView, at: 1)
     }
     
     /// 布局UI 交给子类重写 super自动调用该方法 注意调用super
