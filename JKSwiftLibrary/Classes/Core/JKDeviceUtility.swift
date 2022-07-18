@@ -15,7 +15,7 @@ private struct JKDeviceTypeX: JKDeviceTypeProtocol {
     
     var screenSize: CGSize { CGSize(width: 375.0, height: 812.0) }
     
-    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKScreenBounds.size) }
+    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
 }
 
 /// iPhone X max类型
@@ -23,7 +23,7 @@ private struct JKDeviceTypeXMax: JKDeviceTypeProtocol {
     
     var screenSize: CGSize { CGSize(width: 414.0, height: 896.0) }
     
-    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKScreenBounds.size) }
+    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
 }
 
 /// iPhone12/13 类型
@@ -31,7 +31,7 @@ private struct JKDeviceType12: JKDeviceTypeProtocol {
     
     var screenSize: CGSize { CGSize(width: 390.0, height: 844.0) }
     
-    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKScreenBounds.size) }
+    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
 }
 
 /// iPhone12/13 max 类型
@@ -39,7 +39,7 @@ private struct JKDeviceType12Max: JKDeviceTypeProtocol {
     
     var screenSize: CGSize { CGSize(width: 428.0, height: 926.0) }
     
-    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKScreenBounds.size) }
+    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
 }
 
 // MARK: - JKMARK 如有新增设备在此添加，并在`JKisDeviceX`中补充 & 更新JKiPhoneScreenMaxWidth

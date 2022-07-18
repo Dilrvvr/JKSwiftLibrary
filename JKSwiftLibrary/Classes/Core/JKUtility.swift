@@ -13,6 +13,14 @@ import Foundation
 /// 屏幕bounds
 public var JKScreenBounds: CGRect { UIScreen.main.bounds }
 
+/// 竖屏的屏幕bounds
+public var JKPortraitScreenBounds: CGRect {
+    
+    if JKisPortrait { return UIScreen.main.bounds }
+    
+    return CGRect(x: 0.0, y: 0.0, width: min(JKScreenWidth, JKScreenHeight), height: max(JKScreenWidth, JKScreenHeight))
+}
+
 /// 屏幕scale
 public var JKScreenScale: CGFloat { UIScreen.main.scale }
 
