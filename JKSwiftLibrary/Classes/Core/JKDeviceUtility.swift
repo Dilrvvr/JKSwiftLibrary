@@ -42,6 +42,22 @@ private struct JKDeviceType12Max: JKDeviceTypeProtocol {
     var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
 }
 
+/// iPhone 14 Pro
+private struct JKDeviceType14: JKDeviceTypeProtocol {
+    
+    var screenSize: CGSize { CGSize(width: 393.0, height: 852.0) }
+    
+    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
+}
+
+/// iPhone14 Pro Max 类型
+private struct JKDeviceType14Max: JKDeviceTypeProtocol {
+    
+    var screenSize: CGSize { CGSize(width: 430.0, height: 932.0) }
+    
+    var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
+}
+
 // MARK: - JKMARK 如有新增设备在此添加，并在`JKisDeviceX`中补充 & 更新JKiPhoneScreenMaxWidth
 // 如iPhone未来支持分屏时需要修改JKisSplitScreenCapable
 
@@ -74,7 +90,9 @@ public let JKisDeviceX: Bool = {
         deviceX = (JKDeviceTypeX().isDeviceX ||
                    JKDeviceTypeXMax().isDeviceX ||
                    JKDeviceType12().isDeviceX ||
-                   JKDeviceType12Max().isDeviceX)
+                   JKDeviceType12Max().isDeviceX ||
+                   JKDeviceType14().isDeviceX ||
+                   JKDeviceType14Max().isDeviceX)
     }
     
     return deviceX
@@ -88,12 +106,17 @@ public struct JKDeviceUtility {
     /// 设备型号名称 e.g. @"iPhone 12", @"iPhone 12 Pro Max"
     public static let deviceModelName: String = {
         
-        guard let deviceType = deviceIdentifierDictionary[deviceIdentifier] else {
+        if let modelName = deviceIdentifierDictionary[deviceIdentifier] {
             
-            return "Unknown"
+            return modelName
         }
         
-        return deviceType
+        if deviceIdentifier.lowercased().hasPrefix("arm") {
+            
+            return "Simulator"
+        }
+        
+        return UnknownText
     }()
     
     /// 设备硬件标识 e.g. @"iPhone13,2", @"iPhone13,3"
@@ -131,6 +154,14 @@ public struct JKDeviceUtility {
         
         return isSuccess
     }
+    
+    // MARK:
+    // MARK: - Private Property
+    
+    private static var UnknownText: String { "unknown" }
+    
+    // MARK:
+    // MARK: - Device Identifier & Device Model Name Dictionary
     
     /// [设备硬件标识 : 型号名称] 对应字典
     public static var deviceIdentifierDictionary: [String : String] {
@@ -201,6 +232,11 @@ public struct JKDeviceUtility {
             "iPhone14,3" : "iPhone 13 Pro Max",
             
             "iPhone14,6" : "iPhone SE (3rd generation)",
+            
+            "iPhone14,7" : "iPhone 14",
+            "iPhone14,8" : "iPhone 14 Plus",
+            "iPhone15,2" : "iPhone 14 Pro",
+            "iPhone15,3" : "iPhone 14 Pro Max",
             
             
             // iPod touch

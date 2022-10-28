@@ -198,9 +198,11 @@ public var JKStatusBarHeight: CGFloat {
     
     if #available(iOS 11.0, *) {
         
+        let topInset = JKSafeAreaInsets.top
+        
         if JKisDeviceiPad {
             
-            return JKKeyWindow.safeAreaInsets.top > 0.0 ? JKKeyWindow.safeAreaInsets.top : 24.0
+            return topInset > 0.0 ? topInset : 24.0
         }
         
         return JKKeyWindow.safeAreaInsets.top
@@ -222,6 +224,9 @@ public var JKNavigationBarHeight: CGFloat {
     
     return JKStatusBarHeight + 44.0
 }
+
+/// 底部是否有安全区域
+public var JKIsHasBottomSafeArea: Bool { JKBottomSafeAreaInset > 0.0 }
 
 /// 底部安全区域高度
 public var JKBottomSafeAreaInset: CGFloat { JKSafeAreaInsets.bottom }
