@@ -7,103 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1361D05AB47514AE72438BA84BDE4562 /* JKSwiftLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782F89EAFC305597B568C89DB740157C /* JKSwiftLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B1A59AED77E36AFB0B1CFD16D62F27D /* JKAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C57152B534C7F52D15D3DD7A081377 /* JKAuthorization.swift */; };
-		1C4332C946C1886C47650CAAD93DBCFD /* UIDevice+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352168C06DE6AC522F44028784FFC4E1 /* UIDevice+JKExtension.swift */; };
-		1DF6E118010A7DCCA93E4E63A349C50B /* String+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7521944953DCB7AA862C560D6012F0B5 /* String+JKExtension.swift */; };
-		21E92952B8AF8A67BA7A50DAD143CF2A /* JKAPPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119CE9F665BFD9AED883FB04EBA9C14E /* JKAPPUtility.swift */; };
-		2637C6A2287259070F07CACDAD9D494C /* JKJSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C7B7D5C5A2FA9589D34A5A34D5689 /* JKJSONUtility.swift */; };
-		2C5C824F712EAE5A7D9245A3B49C260B /* JKSwiftLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F9DA567DE7865C938CCB1CB39DE3B4 /* JKSwiftLibrary-dummy.m */; };
-		30A63D154E47284282D3B1EE17B14947 /* UIView+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED442526467FEAF10E400D87B61C5021 /* UIView+JKExtension.swift */; };
-		54415FF6E57F732CF012DA5EBD2C07D0 /* JKSwiftLibraryResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D780632BF63F9E14DE2A2AE223DDE05 /* JKSwiftLibraryResource.bundle */; };
-		5EAB653612F4E6830FA320B33041AA4B /* Date+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C745CEB2B3FDC84E9F77A4E1C63388F /* Date+JKExtension.swift */; };
-		5F6D6541B094F9C60D9F1350FC4F2894 /* JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958868FE12474E1825FE8437CF0F9525 /* JKExtension.swift */; };
+		08C9988CBDAE55F10AEF9CE200B808AF /* JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C91DD0A810BEF1AA342FF55C1ED739F /* JKExtension.swift */; };
+		0B12484D8577DAFDCA65D41903E8974E /* JKAPPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB6FC912D0088B006FE2EB8686CE312 /* JKAPPUtility.swift */; };
+		1043508DF130D2E309ED90A12754D9BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2EEEC3136AFE2B18B83C6D93ACAD9259 /* UIDevice+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4BA905E48091B188964AEB5F7600BE /* UIDevice+JKExtension.swift */; };
+		36502C1C52CE8BE1961D8D4D8C219552 /* JKGeneralUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42238EEE5C0885528CC15EDAC12E71CE /* JKGeneralUtility.swift */; };
+		41DC72BB6E3456FFC7644C69F6F2C3DC /* JKJSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA25537682A8D8626BCA84B46BFAAA9 /* JKJSONUtility.swift */; };
+		4C91339544DA29FA2F2FA037119D7588 /* JKDeviceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274D00F96BFC2BFAF4B2551B8CC7A2EA /* JKDeviceUtility.swift */; };
+		4F6D73FB8CDF56A07F6DF0E39837F481 /* UIView+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46935569C4458EB805CD6D26387E31D9 /* UIView+JKExtension.swift */; };
 		63F18F638F245039FA5D4E0FA6ED21CF /* Pods-JKSwiftLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9033C2B7F487AD5E00912626BAF38C /* Pods-JKSwiftLibrary_Tests-dummy.m */; };
-		69C7DC1A948033E502B7A9E708EB37C5 /* JKProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183B2BD7BFF5968FE3093495257EF82 /* JKProtocol.swift */; };
+		654E9BC1CA23A2BBCE23237D0A792D38 /* JKUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40971FCCBA6465244579BA7E1472274 /* JKUIView.swift */; };
+		69FA4AA90ACC96D87EB69571B90F68CF /* Date+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11CDBD1477E0CBEE144D4031A2ECFEA /* Date+JKExtension.swift */; };
+		70931EAD61BE8B5F7ED9F6596B9CA330 /* JKAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FED8F4CDB23FDBBFF82BB11053C931C /* JKAuthorization.swift */; };
 		71187209928E5F8AAAF8CC49A7B82C8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		7131CED1D3850B126EA6FFFBF1CD1538 /* JKProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39473FF722598DBB7891FEF24E3305C /* JKProtocol.swift */; };
+		771EA14265808B6BC7FE2901CAB0FF6E /* UIColor+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415E640B9A063DBAB3E6268F55D18B5 /* UIColor+JKExtension.swift */; };
 		816F6F28EA7854553D94B1DB4D24998A /* Pods-JKSwiftLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B37B4E2C0CB913E188CA2F9B50FDC /* Pods-JKSwiftLibrary_Example-dummy.m */; };
-		8CBEAC29F98C02207D90F0C231A68A8B /* UIGestureRecognizer+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60153A281BC193E6A441B2E333E5B256 /* UIGestureRecognizer+JKExtension.swift */; };
 		8FCF74F9A371A36B6E2FC8767B39914E /* Pods-JKSwiftLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A302D088BE07FC3D1D3AF0684126738A /* Pods-JKSwiftLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9360118F3C36CCC92C93139739ABEBF0 /* JKGeneralUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316107F3E952007EC8B41887BA4167A /* JKGeneralUtility.swift */; };
+		923651442C6A3EEA9F72A5FEA7C3FF7E /* JKSwiftLibraryResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4EDDC719CAA37FD204808A34EB65673B /* JKSwiftLibraryResource.bundle */; };
+		95B7CC256EE75A81C9C871C0EEF7C4DC /* JKFitScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4502B9D087C35AD07A0E21A1D8135A68 /* JKFitScreen.swift */; };
+		9A305DA8036A642A39E7DFB4FB54E92E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
 		9C001C0DFB160B1CE7B9C30083B26C9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A24946EA0A29B1D714DFFD8F3E549E72 /* JKDeviceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283D24DB0A8C270F1D49C33173D10708 /* JKDeviceUtility.swift */; };
-		A969A02DCA4D27CC70183E896D367A3D /* UIColor+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9C50B7B5028B50FCEE16B5C718BE9B /* UIColor+JKExtension.swift */; };
-		AD0D2E05687C1CD91B1FC214A49898CE /* JKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F3D2C580C06811D268DA8A3949D171 /* JKUtility.swift */; };
-		B0D11D3FE11392484413985A78125038 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		C7364AC6837A3595B57E995A6FEAE2F1 /* JKUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F34978666FF800CB470FFBFC130CC /* JKUIView.swift */; };
+		A0D91CB449341C32C7B2B26C411CEA52 /* JKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960AB8C8E730574F113C06ED174632E /* JKUtility.swift */; };
+		A8C50BF973602960C90E909838F0894E /* String+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473769D5200ABEDB619F251245A5239A /* String+JKExtension.swift */; };
+		B7437F0E9DC73947737C7E2D4E1C34B4 /* JKSwiftLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287A0010DDACA54B6B254BD2677D0F8A /* JKSwiftLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A1B6D938DE01D9ACA8475D9873672F /* JKSwiftLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D7B38E609043F187857938562378B /* JKSwiftLibrary-dummy.m */; };
+		CF2B6B09474AA8AEE086D59D88B3F690 /* UIGestureRecognizer+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA72E9EA0FC2496BE252911D8836B517 /* UIGestureRecognizer+JKExtension.swift */; };
+		D5387A221D5853A9A527BB871F1C3C29 /* UIImage+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59B2896923EFE8B071AA57A5E57D455 /* UIImage+JKExtension.swift */; };
 		DEAE9ACE8F3E9C70E191009CEC7F7275 /* Pods-JKSwiftLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 722C58C0B656E4EDBD7DF504E7FD1FCB /* Pods-JKSwiftLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1C392D15A43E26BF740E53E608FB097 /* UIImage+JKExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F00024A9690B7B21A8D1D6B6BC6E9 /* UIImage+JKExtension.swift */; };
-		EC5ED6091ECF6A4252A93BAC1EF78B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7BDB1A28B4DA4F4DF8BAED27F192B53F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B95B0DAA12120B740EC704C8A4CF820E;
-			remoteInfo = JKSwiftLibrary;
-		};
-		A1BE4B56F5D8030A8EF28961D6638594 /* PBXContainerItemProxy */ = {
+		A82D99F0B4430195651C7CBDDE002978 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 972F6F5911B62DA0607FE3E88D98511F;
 			remoteInfo = "Pods-JKSwiftLibrary_Example";
 		};
+		DA16C5F9C391586FCA55DA7B8039E5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95B0DAA12120B740EC704C8A4CF820E;
+			remoteInfo = JKSwiftLibrary;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		080E8AFA37BCD54CC9CA5460AB381DE1 /* JKSwiftLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftLibrary-prefix.pch"; sourceTree = "<group>"; };
+		0AA25537682A8D8626BCA84B46BFAAA9 /* JKJSONUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKJSONUtility.swift; path = JKSwiftLibrary/Classes/Core/JKJSONUtility.swift; sourceTree = "<group>"; };
 		0B2B37B4E2C0CB913E188CA2F9B50FDC /* Pods-JKSwiftLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		0C0403E18E2899015BEB84371663379B /* Pods-JKSwiftLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F02678DC937152217E8572CB3D09604 /* Pods-JKSwiftLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		119CE9F665BFD9AED883FB04EBA9C14E /* JKAPPUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKAPPUtility.swift; path = JKSwiftLibrary/Classes/Core/JKAPPUtility.swift; sourceTree = "<group>"; };
-		15C57152B534C7F52D15D3DD7A081377 /* JKAuthorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKAuthorization.swift; path = JKSwiftLibrary/Classes/Core/JKAuthorization.swift; sourceTree = "<group>"; };
-		185C7B7D5C5A2FA9589D34A5A34D5689 /* JKJSONUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKJSONUtility.swift; path = JKSwiftLibrary/Classes/Core/JKJSONUtility.swift; sourceTree = "<group>"; };
 		1B7109CFC6EC2253627EBBBDB605D9C5 /* Pods-JKSwiftLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		283D24DB0A8C270F1D49C33173D10708 /* JKDeviceUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKDeviceUtility.swift; path = JKSwiftLibrary/Classes/Core/JKDeviceUtility.swift; sourceTree = "<group>"; };
+		274D00F96BFC2BFAF4B2551B8CC7A2EA /* JKDeviceUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKDeviceUtility.swift; path = JKSwiftLibrary/Classes/Core/JKDeviceUtility.swift; sourceTree = "<group>"; };
+		27F04DC8E0631D8C47A8E563C480AA47 /* JKSwiftLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftLibrary-prefix.pch"; sourceTree = "<group>"; };
+		287A0010DDACA54B6B254BD2677D0F8A /* JKSwiftLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftLibrary-umbrella.h"; sourceTree = "<group>"; };
 		29C2FB7F8A8F5665453459D070328BAE /* JKSwiftLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKSwiftLibrary; path = JKSwiftLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31FF2B6B2CB252AEB79B42A042FC0C75 /* JKSwiftLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSwiftLibrary-Info.plist"; sourceTree = "<group>"; };
-		352168C06DE6AC522F44028784FFC4E1 /* UIDevice+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIDevice+JKExtension.swift"; sourceTree = "<group>"; };
-		3C745CEB2B3FDC84E9F77A4E1C63388F /* Date+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/Date+JKExtension.swift"; sourceTree = "<group>"; };
+		2CDB0861AC3BC335E54ED017D11A216C /* JKSwiftLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftLibrary.modulemap; sourceTree = "<group>"; };
+		42238EEE5C0885528CC15EDAC12E71CE /* JKGeneralUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKGeneralUtility.swift; path = JKSwiftLibrary/Classes/Core/JKGeneralUtility.swift; sourceTree = "<group>"; };
 		4252F4FC4CD9B4B140862A898CC9B3A0 /* Pods-JKSwiftLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		48F9DA567DE7865C938CCB1CB39DE3B4 /* JKSwiftLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftLibrary-dummy.m"; sourceTree = "<group>"; };
-		4F4C638C1E9D403A97663FD4E299A7CD /* JKSwiftLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftLibrary.release.xcconfig; sourceTree = "<group>"; };
+		4502B9D087C35AD07A0E21A1D8135A68 /* JKFitScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKFitScreen.swift; path = JKSwiftLibrary/Classes/Core/JKFitScreen.swift; sourceTree = "<group>"; };
+		46935569C4458EB805CD6D26387E31D9 /* UIView+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIView+JKExtension.swift"; sourceTree = "<group>"; };
+		473769D5200ABEDB619F251245A5239A /* String+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/String+JKExtension.swift"; sourceTree = "<group>"; };
+		4EDDC719CAA37FD204808A34EB65673B /* JKSwiftLibraryResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JKSwiftLibraryResource.bundle; path = JKSwiftLibrary/Assets/JKSwiftLibraryResource.bundle; sourceTree = "<group>"; };
+		4F8D7B38E609043F187857938562378B /* JKSwiftLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftLibrary-dummy.m"; sourceTree = "<group>"; };
+		4FED8F4CDB23FDBBFF82BB11053C931C /* JKAuthorization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKAuthorization.swift; path = JKSwiftLibrary/Classes/Core/JKAuthorization.swift; sourceTree = "<group>"; };
 		5090CB29B17A408AD9B2AB8CCBA9EC26 /* Pods-JKSwiftLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		586D10A0CD5BEAD476D322015C023999 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		60153A281BC193E6A441B2E333E5B256 /* UIGestureRecognizer+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIGestureRecognizer+JKExtension.swift"; sourceTree = "<group>"; };
-		634ED7E57550E2EEC90E3ADE235844E6 /* JKSwiftLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftLibrary.modulemap; sourceTree = "<group>"; };
-		6D780632BF63F9E14DE2A2AE223DDE05 /* JKSwiftLibraryResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JKSwiftLibraryResource.bundle; path = JKSwiftLibrary/Assets/JKSwiftLibraryResource.bundle; sourceTree = "<group>"; };
+		5C91DD0A810BEF1AA342FF55C1ED739F /* JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKExtension.swift; path = JKSwiftLibrary/Classes/Extension/JKExtension.swift; sourceTree = "<group>"; };
+		5DB6FC912D0088B006FE2EB8686CE312 /* JKAPPUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKAPPUtility.swift; path = JKSwiftLibrary/Classes/Core/JKAPPUtility.swift; sourceTree = "<group>"; };
+		5E85F8DD904E5E74C4277A0087FFD130 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		722C58C0B656E4EDBD7DF504E7FD1FCB /* Pods-JKSwiftLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		7521944953DCB7AA862C560D6012F0B5 /* String+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/String+JKExtension.swift"; sourceTree = "<group>"; };
-		782F89EAFC305597B568C89DB740157C /* JKSwiftLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftLibrary-umbrella.h"; sourceTree = "<group>"; };
+		7415E640B9A063DBAB3E6268F55D18B5 /* UIColor+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIColor+JKExtension.swift"; sourceTree = "<group>"; };
 		7C442D58F7ABB4B5E0D312135FF6B0E7 /* Pods-JKSwiftLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JKSwiftLibrary_Example"; path = Pods_JKSwiftLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		821B70A4FACA947C94099501BA03B470 /* Pods-JKSwiftLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89944B2DE52BA8C18F00E5FD8CBCFA78 /* Pods-JKSwiftLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		955CA3A40848B7DE0CC9A8136BCE2CC6 /* JKSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKSwiftLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		958868FE12474E1825FE8437CF0F9525 /* JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKExtension.swift; path = JKSwiftLibrary/Classes/Extension/JKExtension.swift; sourceTree = "<group>"; };
+		91D1CAB42C6AD966000D65A7C8B9F866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FCED161BE5A4A28F98F4B9994536977 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A302D088BE07FC3D1D3AF0684126738A /* Pods-JKSwiftLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AA493CA6E8D015DEE72879016E717C31 /* Pods-JKSwiftLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		AA72E9EA0FC2496BE252911D8836B517 /* UIGestureRecognizer+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIGestureRecognizer+JKExtension.swift"; sourceTree = "<group>"; };
 		AFC1AB5481FC18AC27868B310B57132C /* Pods-JKSwiftLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		B7D1D95E6C84E38E5D9DC918387C07C1 /* JKSwiftLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSwiftLibrary-Info.plist"; sourceTree = "<group>"; };
 		BC134A48FA06DA7C30C08B008C37D7A4 /* Pods-JKSwiftLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C183B2BD7BFF5968FE3093495257EF82 /* JKProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKProtocol.swift; path = JKSwiftLibrary/Classes/Core/JKProtocol.swift; sourceTree = "<group>"; };
-		C1C1B3862382551F97F84A891002A063 /* JKSwiftLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		C2F3D2C580C06811D268DA8A3949D171 /* JKUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKUtility.swift; path = JKSwiftLibrary/Classes/Core/JKUtility.swift; sourceTree = "<group>"; };
+		BD4BA905E48091B188964AEB5F7600BE /* UIDevice+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIDevice+JKExtension.swift"; sourceTree = "<group>"; };
+		C40971FCCBA6465244579BA7E1472274 /* JKUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKUIView.swift; path = JKSwiftLibrary/Classes/BaseClass/JKUIView.swift; sourceTree = "<group>"; };
+		C59B2896923EFE8B071AA57A5E57D455 /* UIImage+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIImage+JKExtension.swift"; sourceTree = "<group>"; };
 		C81FA52F927E0FFF92CC0B3A14265644 /* Pods-JKSwiftLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JKSwiftLibrary_Tests"; path = Pods_JKSwiftLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C960AB8C8E730574F113C06ED174632E /* JKUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKUtility.swift; path = JKSwiftLibrary/Classes/Core/JKUtility.swift; sourceTree = "<group>"; };
+		D06DA21ADF5B23DD75CE279B7BBD6F59 /* JKSwiftLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftLibrary.release.xcconfig; sourceTree = "<group>"; };
+		D11CDBD1477E0CBEE144D4031A2ECFEA /* Date+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/Date+JKExtension.swift"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D39473FF722598DBB7891FEF24E3305C /* JKProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKProtocol.swift; path = JKSwiftLibrary/Classes/Core/JKProtocol.swift; sourceTree = "<group>"; };
 		D41735D2094C809E1FC8350304857686 /* Pods-JKSwiftLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftLibrary_Example-Info.plist"; sourceTree = "<group>"; };
-		D95F00024A9690B7B21A8D1D6B6BC6E9 /* UIImage+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIImage+JKExtension.swift"; sourceTree = "<group>"; };
 		DC2AC21E83F906909C02F4CA07826B90 /* Pods-JKSwiftLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF9033C2B7F487AD5E00912626BAF38C /* Pods-JKSwiftLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		E061BF36651535223F7C425EF3C0EFA4 /* Pods-JKSwiftLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKSwiftLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E123FBB0228AB58CBBA2AA669E9239CF /* JKSwiftLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		E70F7B29BC3CB0E5E6035B257D6CC5C0 /* JKSwiftLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKSwiftLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		ED442526467FEAF10E400D87B61C5021 /* UIView+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIView+JKExtension.swift"; sourceTree = "<group>"; };
-		F19F34978666FF800CB470FFBFC130CC /* JKUIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKUIView.swift; path = JKSwiftLibrary/Classes/BaseClass/JKUIView.swift; sourceTree = "<group>"; };
-		F316107F3E952007EC8B41887BA4167A /* JKGeneralUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKGeneralUtility.swift; path = JKSwiftLibrary/Classes/Core/JKGeneralUtility.swift; sourceTree = "<group>"; };
-		FF9C50B7B5028B50FCEE16B5C718BE9B /* UIColor+JKExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+JKExtension.swift"; path = "JKSwiftLibrary/Classes/Extension/UIColor+JKExtension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +125,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98200E8474C0BB3A6749C5811B1C8402 /* Frameworks */ = {
+		A7421C4FFF37E18D5BE8B211A8DE9D28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5ED6091ECF6A4252A93BAC1EF78B19 /* Foundation.framework in Frameworks */,
-				B0D11D3FE11392484413985A78125038 /* UIKit.framework in Frameworks */,
+				1043508DF130D2E309ED90A12754D9BD /* Foundation.framework in Frameworks */,
+				9A305DA8036A642A39E7DFB4FB54E92E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,26 +145,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		262F5FBEDBDB1865B29EEF59CB6BA591 /* JKSwiftLibrary */ = {
+		3ED8F9DDBC173549BF9E7B748D66B55C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6D780632BF63F9E14DE2A2AE223DDE05 /* JKSwiftLibraryResource.bundle */,
-				948B18FE3D3226091678D4B6CD341C5B /* BaseClass */,
-				E093593DD1F90A9B01006D230B4AEFC2 /* Core */,
-				A453FA336378F24B530065A47A7B51C0 /* Extension */,
-				6C5F85FE53F58E31A205671136D44ABC /* Pod */,
-				AF7E40921A6A62B40D7762D235D79D66 /* Support Files */,
+				2CDB0861AC3BC335E54ED017D11A216C /* JKSwiftLibrary.modulemap */,
+				4F8D7B38E609043F187857938562378B /* JKSwiftLibrary-dummy.m */,
+				B7D1D95E6C84E38E5D9DC918387C07C1 /* JKSwiftLibrary-Info.plist */,
+				27F04DC8E0631D8C47A8E563C480AA47 /* JKSwiftLibrary-prefix.pch */,
+				287A0010DDACA54B6B254BD2677D0F8A /* JKSwiftLibrary-umbrella.h */,
+				E123FBB0228AB58CBBA2AA669E9239CF /* JKSwiftLibrary.debug.xcconfig */,
+				D06DA21ADF5B23DD75CE279B7BBD6F59 /* JKSwiftLibrary.release.xcconfig */,
 			);
-			name = JKSwiftLibrary;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKSwiftLibrary";
 			sourceTree = "<group>";
 		};
 		3F590A6AF6E1000F186E73B4A199E02C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				262F5FBEDBDB1865B29EEF59CB6BA591 /* JKSwiftLibrary */,
+				601DB8B8BD92A10173CFCD097C27387D /* JKSwiftLibrary */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4C45F27D81E83D2FAFCFE41B97FBF1B3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E70F7B29BC3CB0E5E6035B257D6CC5C0 /* JKSwiftLibrary.podspec */,
+				5E85F8DD904E5E74C4277A0087FFD130 /* LICENSE */,
+				91D1CAB42C6AD966000D65A7C8B9F866 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -174,14 +187,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6C5F85FE53F58E31A205671136D44ABC /* Pod */ = {
+		601DB8B8BD92A10173CFCD097C27387D /* JKSwiftLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				955CA3A40848B7DE0CC9A8136BCE2CC6 /* JKSwiftLibrary.podspec */,
-				9FCED161BE5A4A28F98F4B9994536977 /* LICENSE */,
-				586D10A0CD5BEAD476D322015C023999 /* README.md */,
+				4EDDC719CAA37FD204808A34EB65673B /* JKSwiftLibraryResource.bundle */,
+				E0CCCD0AF727341DE2DD4F9AE3A3270F /* BaseClass */,
+				CD6F7626C058940C3ADB495BC6F155D4 /* Core */,
+				F31636C2CF40726E22095D7FBDEE67A1 /* Extension */,
+				4C45F27D81E83D2FAFCFE41B97FBF1B3 /* Pod */,
+				3ED8F9DDBC173549BF9E7B748D66B55C /* Support Files */,
 			);
-			name = Pod;
+			name = JKSwiftLibrary;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		84ED87193D16DF7A4BB42692731612A5 /* Pods-JKSwiftLibrary_Tests */ = {
@@ -200,29 +217,6 @@
 			path = "Target Support Files/Pods-JKSwiftLibrary_Tests";
 			sourceTree = "<group>";
 		};
-		948B18FE3D3226091678D4B6CD341C5B /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				F19F34978666FF800CB470FFBFC130CC /* JKUIView.swift */,
-			);
-			name = BaseClass;
-			sourceTree = "<group>";
-		};
-		A453FA336378F24B530065A47A7B51C0 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				3C745CEB2B3FDC84E9F77A4E1C63388F /* Date+JKExtension.swift */,
-				958868FE12474E1825FE8437CF0F9525 /* JKExtension.swift */,
-				7521944953DCB7AA862C560D6012F0B5 /* String+JKExtension.swift */,
-				FF9C50B7B5028B50FCEE16B5C718BE9B /* UIColor+JKExtension.swift */,
-				352168C06DE6AC522F44028784FFC4E1 /* UIDevice+JKExtension.swift */,
-				60153A281BC193E6A441B2E333E5B256 /* UIGestureRecognizer+JKExtension.swift */,
-				D95F00024A9690B7B21A8D1D6B6BC6E9 /* UIImage+JKExtension.swift */,
-				ED442526467FEAF10E400D87B61C5021 /* UIView+JKExtension.swift */,
-			);
-			name = Extension;
-			sourceTree = "<group>";
-		};
 		A8E927924A4A3D2F136D7C8C47672387 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,21 +224,6 @@
 				84ED87193D16DF7A4BB42692731612A5 /* Pods-JKSwiftLibrary_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AF7E40921A6A62B40D7762D235D79D66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				634ED7E57550E2EEC90E3ADE235844E6 /* JKSwiftLibrary.modulemap */,
-				48F9DA567DE7865C938CCB1CB39DE3B4 /* JKSwiftLibrary-dummy.m */,
-				31FF2B6B2CB252AEB79B42A042FC0C75 /* JKSwiftLibrary-Info.plist */,
-				080E8AFA37BCD54CC9CA5460AB381DE1 /* JKSwiftLibrary-prefix.pch */,
-				782F89EAFC305597B568C89DB740157C /* JKSwiftLibrary-umbrella.h */,
-				C1C1B3862382551F97F84A891002A063 /* JKSwiftLibrary.debug.xcconfig */,
-				4F4C638C1E9D403A97663FD4E299A7CD /* JKSwiftLibrary.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JKSwiftLibrary";
 			sourceTree = "<group>";
 		};
 		BDFDC8B04B46022B46358C443C69D580 /* Products */ = {
@@ -255,6 +234,21 @@
 				C81FA52F927E0FFF92CC0B3A14265644 /* Pods-JKSwiftLibrary_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6F7626C058940C3ADB495BC6F155D4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5DB6FC912D0088B006FE2EB8686CE312 /* JKAPPUtility.swift */,
+				4FED8F4CDB23FDBBFF82BB11053C931C /* JKAuthorization.swift */,
+				274D00F96BFC2BFAF4B2551B8CC7A2EA /* JKDeviceUtility.swift */,
+				4502B9D087C35AD07A0E21A1D8135A68 /* JKFitScreen.swift */,
+				42238EEE5C0885528CC15EDAC12E71CE /* JKGeneralUtility.swift */,
+				0AA25537682A8D8626BCA84B46BFAAA9 /* JKJSONUtility.swift */,
+				D39473FF722598DBB7891FEF24E3305C /* JKProtocol.swift */,
+				C960AB8C8E730574F113C06ED174632E /* JKUtility.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -268,18 +262,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		E093593DD1F90A9B01006D230B4AEFC2 /* Core */ = {
+		E0CCCD0AF727341DE2DD4F9AE3A3270F /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				119CE9F665BFD9AED883FB04EBA9C14E /* JKAPPUtility.swift */,
-				15C57152B534C7F52D15D3DD7A081377 /* JKAuthorization.swift */,
-				283D24DB0A8C270F1D49C33173D10708 /* JKDeviceUtility.swift */,
-				F316107F3E952007EC8B41887BA4167A /* JKGeneralUtility.swift */,
-				185C7B7D5C5A2FA9589D34A5A34D5689 /* JKJSONUtility.swift */,
-				C183B2BD7BFF5968FE3093495257EF82 /* JKProtocol.swift */,
-				C2F3D2C580C06811D268DA8A3949D171 /* JKUtility.swift */,
+				C40971FCCBA6465244579BA7E1472274 /* JKUIView.swift */,
 			);
-			name = Core;
+			name = BaseClass;
 			sourceTree = "<group>";
 		};
 		F2102B9CA62C801A08A1C5AA0D1A85C1 /* Pods-JKSwiftLibrary_Example */ = {
@@ -299,6 +287,21 @@
 			path = "Target Support Files/Pods-JKSwiftLibrary_Example";
 			sourceTree = "<group>";
 		};
+		F31636C2CF40726E22095D7FBDEE67A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D11CDBD1477E0CBEE144D4031A2ECFEA /* Date+JKExtension.swift */,
+				5C91DD0A810BEF1AA342FF55C1ED739F /* JKExtension.swift */,
+				473769D5200ABEDB619F251245A5239A /* String+JKExtension.swift */,
+				7415E640B9A063DBAB3E6268F55D18B5 /* UIColor+JKExtension.swift */,
+				BD4BA905E48091B188964AEB5F7600BE /* UIDevice+JKExtension.swift */,
+				AA72E9EA0FC2496BE252911D8836B517 /* UIGestureRecognizer+JKExtension.swift */,
+				C59B2896923EFE8B071AA57A5E57D455 /* UIImage+JKExtension.swift */,
+				46935569C4458EB805CD6D26387E31D9 /* UIView+JKExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -310,11 +313,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61242A6A993479304DF6FFDE8CBFF0A9 /* Headers */ = {
+		762E6D03AC47337C5269CA9E9367AF4B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1361D05AB47514AE72438BA84BDE4562 /* JKSwiftLibrary-umbrella.h in Headers */,
+				B7437F0E9DC73947737C7E2D4E1C34B4 /* JKSwiftLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +344,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7C55B8BA99F65AB33DBFCBE1712F6B67 /* PBXTargetDependency */,
+				A1D2DFD492C0A9034A9D44463D762088 /* PBXTargetDependency */,
 			);
 			name = "Pods-JKSwiftLibrary_Tests";
 			productName = Pods_JKSwiftLibrary_Tests;
@@ -360,7 +363,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				78E1B313DEA69B21B12203342566F748 /* PBXTargetDependency */,
+				F5B1981AA9E3B94F15A6627138B0252C /* PBXTargetDependency */,
 			);
 			name = "Pods-JKSwiftLibrary_Example";
 			productName = Pods_JKSwiftLibrary_Example;
@@ -369,12 +372,12 @@
 		};
 		B95B0DAA12120B740EC704C8A4CF820E /* JKSwiftLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AD142EEE5293194EA47DF8C3E3E3C98 /* Build configuration list for PBXNativeTarget "JKSwiftLibrary" */;
+			buildConfigurationList = 1020B43210EB10E72F51E9A7B22C7FAD /* Build configuration list for PBXNativeTarget "JKSwiftLibrary" */;
 			buildPhases = (
-				61242A6A993479304DF6FFDE8CBFF0A9 /* Headers */,
-				ED2C174291A19DC3AA65288323D72543 /* Sources */,
-				98200E8474C0BB3A6749C5811B1C8402 /* Frameworks */,
-				2EF4B1602BECFB6A1E7F4C97F137C683 /* Resources */,
+				762E6D03AC47337C5269CA9E9367AF4B /* Headers */,
+				A8569ED1A887025D6AD137EE1F047CBA /* Sources */,
+				A7421C4FFF37E18D5BE8B211A8DE9D28 /* Frameworks */,
+				B297A84D304D50B6EB09B2238DE2AACD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -391,8 +394,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -415,11 +418,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2EF4B1602BECFB6A1E7F4C97F137C683 /* Resources */ = {
+		B297A84D304D50B6EB09B2238DE2AACD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54415FF6E57F732CF012DA5EBD2C07D0 /* JKSwiftLibraryResource.bundle in Resources */,
+				923651442C6A3EEA9F72A5FEA7C3FF7E /* JKSwiftLibraryResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +451,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A8569ED1A887025D6AD137EE1F047CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FA4AA90ACC96D87EB69571B90F68CF /* Date+JKExtension.swift in Sources */,
+				0B12484D8577DAFDCA65D41903E8974E /* JKAPPUtility.swift in Sources */,
+				70931EAD61BE8B5F7ED9F6596B9CA330 /* JKAuthorization.swift in Sources */,
+				4C91339544DA29FA2F2FA037119D7588 /* JKDeviceUtility.swift in Sources */,
+				08C9988CBDAE55F10AEF9CE200B808AF /* JKExtension.swift in Sources */,
+				95B7CC256EE75A81C9C871C0EEF7C4DC /* JKFitScreen.swift in Sources */,
+				36502C1C52CE8BE1961D8D4D8C219552 /* JKGeneralUtility.swift in Sources */,
+				41DC72BB6E3456FFC7644C69F6F2C3DC /* JKJSONUtility.swift in Sources */,
+				7131CED1D3850B126EA6FFFBF1CD1538 /* JKProtocol.swift in Sources */,
+				C4A1B6D938DE01D9ACA8475D9873672F /* JKSwiftLibrary-dummy.m in Sources */,
+				654E9BC1CA23A2BBCE23237D0A792D38 /* JKUIView.swift in Sources */,
+				A0D91CB449341C32C7B2B26C411CEA52 /* JKUtility.swift in Sources */,
+				A8C50BF973602960C90E909838F0894E /* String+JKExtension.swift in Sources */,
+				771EA14265808B6BC7FE2901CAB0FF6E /* UIColor+JKExtension.swift in Sources */,
+				2EEEC3136AFE2B18B83C6D93ACAD9259 /* UIDevice+JKExtension.swift in Sources */,
+				CF2B6B09474AA8AEE086D59D88B3F690 /* UIGestureRecognizer+JKExtension.swift in Sources */,
+				D5387A221D5853A9A527BB871F1C3C29 /* UIImage+JKExtension.swift in Sources */,
+				4F6D73FB8CDF56A07F6DF0E39837F481 /* UIView+JKExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C080B8AE33B1B8C1094CAC64590BD922 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,84 +484,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED2C174291A19DC3AA65288323D72543 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5EAB653612F4E6830FA320B33041AA4B /* Date+JKExtension.swift in Sources */,
-				21E92952B8AF8A67BA7A50DAD143CF2A /* JKAPPUtility.swift in Sources */,
-				1B1A59AED77E36AFB0B1CFD16D62F27D /* JKAuthorization.swift in Sources */,
-				A24946EA0A29B1D714DFFD8F3E549E72 /* JKDeviceUtility.swift in Sources */,
-				5F6D6541B094F9C60D9F1350FC4F2894 /* JKExtension.swift in Sources */,
-				9360118F3C36CCC92C93139739ABEBF0 /* JKGeneralUtility.swift in Sources */,
-				2637C6A2287259070F07CACDAD9D494C /* JKJSONUtility.swift in Sources */,
-				69C7DC1A948033E502B7A9E708EB37C5 /* JKProtocol.swift in Sources */,
-				2C5C824F712EAE5A7D9245A3B49C260B /* JKSwiftLibrary-dummy.m in Sources */,
-				C7364AC6837A3595B57E995A6FEAE2F1 /* JKUIView.swift in Sources */,
-				AD0D2E05687C1CD91B1FC214A49898CE /* JKUtility.swift in Sources */,
-				1DF6E118010A7DCCA93E4E63A349C50B /* String+JKExtension.swift in Sources */,
-				A969A02DCA4D27CC70183E896D367A3D /* UIColor+JKExtension.swift in Sources */,
-				1C4332C946C1886C47650CAAD93DBCFD /* UIDevice+JKExtension.swift in Sources */,
-				8CBEAC29F98C02207D90F0C231A68A8B /* UIGestureRecognizer+JKExtension.swift in Sources */,
-				E1C392D15A43E26BF740E53E608FB097 /* UIImage+JKExtension.swift in Sources */,
-				30A63D154E47284282D3B1EE17B14947 /* UIView+JKExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		78E1B313DEA69B21B12203342566F748 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JKSwiftLibrary;
-			target = B95B0DAA12120B740EC704C8A4CF820E /* JKSwiftLibrary */;
-			targetProxy = 7BDB1A28B4DA4F4DF8BAED27F192B53F /* PBXContainerItemProxy */;
-		};
-		7C55B8BA99F65AB33DBFCBE1712F6B67 /* PBXTargetDependency */ = {
+		A1D2DFD492C0A9034A9D44463D762088 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JKSwiftLibrary_Example";
 			target = 972F6F5911B62DA0607FE3E88D98511F /* Pods-JKSwiftLibrary_Example */;
-			targetProxy = A1BE4B56F5D8030A8EF28961D6638594 /* PBXContainerItemProxy */;
+			targetProxy = A82D99F0B4430195651C7CBDDE002978 /* PBXContainerItemProxy */;
+		};
+		F5B1981AA9E3B94F15A6627138B0252C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JKSwiftLibrary;
+			target = B95B0DAA12120B740EC704C8A4CF820E /* JKSwiftLibrary */;
+			targetProxy = DA16C5F9C391586FCA55DA7B8039E5DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6423C08BC9436E319F8FFC063222D42F /* Debug */ = {
+		114E1F4F9BE720D55E4098F938282174 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89944B2DE52BA8C18F00E5FD8CBCFA78 /* Pods-JKSwiftLibrary_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JKSwiftLibrary_Tests/Pods-JKSwiftLibrary_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JKSwiftLibrary_Tests/Pods-JKSwiftLibrary_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7117CD4EF7B14CFDAB1AD08951803A42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F4C638C1E9D403A97663FD4E299A7CD /* JKSwiftLibrary.release.xcconfig */;
+			baseConfigurationReference = D06DA21ADF5B23DD75CE279B7BBD6F59 /* JKSwiftLibrary.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -563,10 +534,11 @@
 			};
 			name = Release;
 		};
-		74FA88F7F555523E04CE9E4E257402B7 /* Debug */ = {
+		6423C08BC9436E319F8FFC063222D42F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1C1B3862382551F97F84A891002A063 /* JKSwiftLibrary.debug.xcconfig */;
+			baseConfigurationReference = 89944B2DE52BA8C18F00E5FD8CBCFA78 /* Pods-JKSwiftLibrary_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -576,18 +548,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftLibrary/JKSwiftLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JKSwiftLibrary/JKSwiftLibrary-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JKSwiftLibrary_Tests/Pods-JKSwiftLibrary_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JKSwiftLibrary/JKSwiftLibrary.modulemap";
-				PRODUCT_MODULE_NAME = JKSwiftLibrary;
-				PRODUCT_NAME = JKSwiftLibrary;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JKSwiftLibrary_Tests/Pods-JKSwiftLibrary_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -723,6 +696,37 @@
 			};
 			name = Debug;
 		};
+		9BB6A1CA7D84E6CC8AF200DA5268F5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E123FBB0228AB58CBBA2AA669E9239CF /* JKSwiftLibrary.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftLibrary/JKSwiftLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKSwiftLibrary/JKSwiftLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKSwiftLibrary/JKSwiftLibrary.modulemap";
+				PRODUCT_MODULE_NAME = JKSwiftLibrary;
+				PRODUCT_NAME = JKSwiftLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C543D5DEC53CD6BC4B50F084F5C69E7C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC2AC21E83F906909C02F4CA07826B90 /* Pods-JKSwiftLibrary_Tests.release.xcconfig */;
@@ -826,6 +830,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1020B43210EB10E72F51E9A7B22C7FAD /* Build configuration list for PBXNativeTarget "JKSwiftLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB6A1CA7D84E6CC8AF200DA5268F5FF /* Debug */,
+				114E1F4F9BE720D55E4098F938282174 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		281EB9E9A9860A06C8C895751A1073B2 /* Build configuration list for PBXNativeTarget "Pods-JKSwiftLibrary_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -840,15 +853,6 @@
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8AD142EEE5293194EA47DF8C3E3E3C98 /* Build configuration list for PBXNativeTarget "JKSwiftLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74FA88F7F555523E04CE9E4E257402B7 /* Debug */,
-				7117CD4EF7B14CFDAB1AD08951803A42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
