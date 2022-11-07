@@ -21,6 +21,12 @@ public var JKPortraitScreenBounds: CGRect {
     return CGRect(x: 0.0, y: 0.0, width: min(JKScreenWidth, JKScreenHeight), height: max(JKScreenWidth, JKScreenHeight))
 }
 
+/// 竖屏的屏幕宽度
+public var JKPortraitScreenWidth: CGFloat { min(JKScreenWidth, JKScreenHeight) }
+
+/// 竖屏的屏幕高度
+public var JKPortraitScreenHeight: CGFloat { max(JKScreenWidth, JKScreenHeight) }
+
 /// 屏幕scale
 public var JKScreenScale: CGFloat { UIScreen.main.scale }
 
@@ -30,11 +36,11 @@ public var JKScreenWidth: CGFloat { JKScreenBounds.width }
 /// 屏幕高度
 public var JKScreenHeight: CGFloat { JKScreenBounds.height }
 
-/// 是否横屏
-public var JKisLandscape: Bool { JKScreenWidth > JKScreenHeight }
-
 /// 是否竖屏
 public var JKisPortrait: Bool { JKScreenHeight >= JKScreenWidth }
+
+/// 是否横屏
+public var JKisLandscape: Bool { JKScreenWidth > JKScreenHeight }
 
 /// 当前的windowScene
 @available(iOS 13.0, *)

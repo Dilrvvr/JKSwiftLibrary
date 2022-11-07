@@ -9,7 +9,8 @@ import UIKit
 
 public struct JKAPPUtility {
     
-    private static var infoDictionary: [String : Any] { Bundle.main.infoDictionary ?? [String : Any]() }
+    /// info.plist
+    public static var infoDictionary: [String : Any] { Bundle.main.infoDictionary ?? [String : Any]() }
     
     // MARK:
     // MARK: - Property
@@ -25,6 +26,17 @@ public struct JKAPPUtility {
         if let appName = infoDictionary["CFBundleName"] as? String {
             
             return appName
+        }
+        
+        return nil
+    }
+    
+    /// bundle ID
+    public static var bundleID: String? {
+        
+        if let bundleID = infoDictionary["CFBundleIdentifier"] as? String {
+            
+            return bundleID
         }
         
         return nil
@@ -52,6 +64,17 @@ public struct JKAPPUtility {
         return nil
     }
     
+    /// 启动图的Storyboard名称
+    public static var launchStoryboardName: String? {
+        
+        if let storyboardName = infoDictionary["UILaunchStoryboardName"] as? String {
+            
+            return storyboardName
+        }
+        
+        return nil
+    }
+    
     // MARK:
     // MARK: - Method
     
@@ -70,12 +93,9 @@ public struct JKAPPUtility {
     /// UIApplication 打开url 字符串
     public static func openUrlWithString(urlString: String?) {
         
-        guard let _ = urlString else {
-            
-            return
-        }
+        guard let urlString = urlString else { return }
         
-        let url = URL(string: urlString!)
+        let url = URL(string: urlString)
         
         openUrl(url: url)
     }
@@ -83,12 +103,12 @@ public struct JKAPPUtility {
     /// UIApplication 打开url
     public static func openUrl(url: URL?) {
         
-        guard let realUrl = url,
-              UIApplication.shared.canOpenURL(url!) else {
-                  
-                  return
-              }
+        guard let url = url,
+              UIApplication.shared.canOpenURL(url) else {
+            
+            return
+        }
         
-        UIApplication.shared.open(realUrl, options: [:], completionHandler: nil)
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
 }
