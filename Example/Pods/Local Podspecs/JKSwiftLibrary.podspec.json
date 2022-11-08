@@ -1,6 +1,6 @@
 {
   "name": "JKSwiftLibrary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "工具库.",
   "homepage": "https://github.com/Dilrvvr/JKSwiftLibrary",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/Dilrvvr/JKSwiftLibrary.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "10.0"
