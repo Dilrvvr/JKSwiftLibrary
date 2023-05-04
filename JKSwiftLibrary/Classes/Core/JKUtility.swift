@@ -63,7 +63,7 @@ public var JKCurrentWindowScene: UIWindowScene? {
         return nil
     }
     
-    for scene in UIApplication.shared.connectedScenes {
+    for scene in connectedScenes {
         
         guard scene is UIWindowScene else { continue }
         
@@ -88,6 +88,18 @@ public var JKCurrentSceneWindow: UIWindow? {
         guard let windowScene = JKCurrentWindowScene else {
             
             return nil
+        }
+        
+        if let delegate = windowScene.delegate,
+           delegate is UIWindowSceneDelegate {
+            
+            let sceneDelegate = (delegate as! UIWindowSceneDelegate)
+            
+            if let currentWindow = sceneDelegate.window,
+               let window = currentWindow {
+                
+                return window
+            }
         }
         
         if #available(iOS 15.0, *) {
@@ -118,10 +130,10 @@ public var JKCurrentSceneWindow: UIWindow? {
             }
             
             // TODO: - JKTODO 分屏
-            if (window.bounds.height == JKScreenHeight) {
-                
-                return window
-            }
+            //if (window.bounds.height == JKScreenHeight) {
+            //}
+            
+            return window
         }
     }
     
