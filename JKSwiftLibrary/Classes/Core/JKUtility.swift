@@ -37,10 +37,32 @@ public var JKScreenWidth: CGFloat { JKScreenBounds.width }
 public var JKScreenHeight: CGFloat { JKScreenBounds.height }
 
 /// 是否竖屏
-public var JKisPortrait: Bool { JKScreenHeight >= JKScreenWidth }
+public var JKisPortrait: Bool {
+    
+    if #available(iOS 16.0, *) {
+        
+        if let windowScene = JKCurrentWindowScene {
+            
+            return windowScene.interfaceOrientation.isPortrait
+        }
+    }
+    
+    return JKScreenHeight >= JKScreenWidth
+}
 
 /// 是否横屏
-public var JKisLandscape: Bool { JKScreenWidth > JKScreenHeight }
+public var JKisLandscape: Bool {
+    
+    if #available(iOS 16.0, *) {
+        
+        if let windowScene = JKCurrentWindowScene {
+            
+            return windowScene.interfaceOrientation.isLandscape
+        }
+    }
+    
+    return JKScreenWidth > JKScreenHeight
+}
 
 /// 当前的windowScene
 @available(iOS 13.0, *)
