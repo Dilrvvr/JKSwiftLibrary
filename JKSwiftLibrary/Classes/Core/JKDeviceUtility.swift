@@ -58,13 +58,20 @@ private struct JKDeviceType14Max: JKDeviceTypeProtocol {
     var isDeviceX: Bool { __CGSizeEqualToSize(screenSize, JKPortraitScreenBounds.size) }
 }
 
-// MARK: - JKMARK 如有新增设备在此添加，并在`JKisDeviceX`中补充 & 更新JKiPhoneScreenMaxWidth
+// MARK: - JKMARK 如有新增设备在此添加，并在`JKisDeviceX`中补充 & 更新❗️❗️❗️JKMaxScreenDeviceType❗️❗️❗️
 // 如iPhone未来支持分屏时需要修改JKisSplitScreenCapable
 
-
+/// ❗️❗️❗️屏幕最宽的iPhone设备类型❗️❗️❗️
+private var JKMaxScreenDeviceType: JKDeviceTypeProtocol {
+    
+    JKDeviceType14Max()
+}
 
 /// 目前iPhone屏幕最大宽度
-public let JKiPhoneScreenMaxWidth: CGFloat = 428.0
+public let JKiPhoneScreenMaxWidth: CGFloat = {
+    
+    JKMaxScreenDeviceType.screenSize.width
+}()
 
 /// 是否iPhone设备
 public let JKisDeviceiPhone: Bool = (UIDevice.current.userInterfaceIdiom == .phone)
